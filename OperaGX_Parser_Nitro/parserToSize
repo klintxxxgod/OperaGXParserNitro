@@ -1,0 +1,28 @@
+import os
+import time
+
+size_to_pars = 200 # Максимально допустимый размер файла | Maximum allowed file size
+
+def rename_file(file_path):
+    if os.path.isfile(file_path):
+        file_size_kb = os.path.getsize(file_path) / 1024
+        if file_size_kb > size_to_pars:
+            base_name, extension = os.path.splitext(file_path)
+            counter = 10
+            new_file_path = f"{base_name}({counter}){extension}"
+            while os.path.isfile(new_file_path):
+                counter += 1
+                new_file_path = f"{base_name}({counter}){extension}"
+            os.rename(file_path, new_file_path)
+            print(f"The file is renamed")
+        else:
+          print(f"File less than {size_to_pars} kb")
+    else:
+        print("File not found")
+
+file_to_check = "TOKENS/tokens.txt" # Название файла который чекает скрипт | Name of the file that checks the script
+
+while True:
+    rename_file(file_to_check)
+    time.sleep(3)  # Задержка между проверками | Delay between checks
+
