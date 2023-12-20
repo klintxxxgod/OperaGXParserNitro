@@ -42,8 +42,8 @@ Parser | Парсер:
 # [RU] !pars50.bat - Берёт файл tokens.txt и разбивает его на txt файлы по 50 строк, после чего перемещает в папку Pars-50
 
 # [EN] !parserToSize.bat - Runs during link farming, so that when the file does not gain a lot of weight.
-# [EN] !pars10.bat - Takes the file tokens.txt and splits it into txt files of 10 lines, and then moves it to the Pars-10 folder
-# [EN] !pars50.bat - Takes the file tokens.txt and splits it into txt files of 50 lines, and then moves it to the Pars-50 folder
+# [EN] !pars10.bat - Takes the file tokens.txt and splits it into txt files of 10 lines, and then moves it to the Pars-10
+# [EN] !pars50.bat - Takes the file tokens.txt and splits it into txt files of 50 lines, and then moves it to the Pars-50
 ```
   <table align="center">
     <tr>
