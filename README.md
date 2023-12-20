@@ -3,6 +3,7 @@
   <h2 align="center">OperaGX Parser Nitro</h2>
   <p align="center">
     <br>
+    
   </p>
   
   <table align="center">
@@ -16,9 +17,10 @@
 ## Installation | Установка
 
 ```bash
-
+# [RU] Должен быть Python желательно 3.11.6
 # [RU] Запускаем файл !Install.bat (OperaGX_Parser_Nitro\Nitro-Parser-Farmer\Install.bat)
 
+# [EN] Must be Python, preferably 3.11.6
 # [EN] Run the !Install.bat file (OperaGX_Parser_Nitro\Nitro-Parser-Farmer\Install.bat)
 ```
 
