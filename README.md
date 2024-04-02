@@ -2,7 +2,7 @@
 
   <h2 align="center">OperaGX Parser Nitro</h2>
   <p align="center">
-    <br>
+    <br> 
     
   </p>
   
